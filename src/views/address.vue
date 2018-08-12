@@ -116,7 +116,7 @@
             </div>
           </div>
           <div class="next-btn-wrap">
-            <router-link class="btn btn--m btn--red" v-bind:to="{path:'orderConfirm',query:{'addressId':selectedAddrId}}">Next</router-link>
+            <router-link class="btn btn--m btn--red" v-bind:to="{path:'order-confirm',query:{'addressId':selectedAddrId}}">Next</router-link>
           </div>
         </div>
       </div>
